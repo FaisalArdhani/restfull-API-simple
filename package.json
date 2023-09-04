@@ -1,0 +1,20 @@
+{
+  "name": "restfull-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "project RESTful API sederhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Faisal Ardhani",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
+  }
+}
